@@ -3,5 +3,6 @@ label: Post Blank
 hide_body: false
 fields: []
 pages:
+- docs/file-1.md
 - docs/file.md
 - docs/test.md
