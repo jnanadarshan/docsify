@@ -1,6 +1,3 @@
----
-
----
 - Process
 
   - [Etching](/process/etch-def.md "Etching Definition and Explanation")
@@ -9,6 +6,10 @@
 
   - [Recipie Management System](rms.md)
   - [AHMS](ahms.md)
+ 
+- Mis
+
+  - [Hitachi e-Manufacturing](hitachi-emanufacturing.html)
 
 - Guide
 
