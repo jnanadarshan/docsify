@@ -1,12 +1,9 @@
 ---
 
 ---
-- Getting started
+- Process
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [Etching](etch-def.md)
 
 - Technology
 
