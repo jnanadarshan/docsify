@@ -9,9 +9,9 @@ tags:
 author: Jnanadarshan Nayak
 
 ---
-## AHMS - Automated Material Handling Systems
+**AHMS - Automated Material Handling Systems**
 
-### DAIFUKU - The Evolution of AHMS
+## DAIFUKU - The Evolution of AHMS
 
 From -[https://www.daifuku.com/solution/technology/semiconductor/](https://www.daifuku.com/solution/technology/semiconductor/ "https://www.daifuku.com/solution/technology/semiconductor/")
 
