@@ -1,12 +1,5 @@
----
-layout: default
-description: Blank
-tags: []
-author: Jnanadarshan Nayak
+- Etching
 
----
-- Process
-
-  - [Etching Explainer](etch-def.md "Etching Definations and Explanations")
-  - [Etching Process](etch.md)
+  - [Etching Explainer](/process/etch-def.md "Etching Definations and Explanations")
+  - [Etching Process](/process/etch.md "Etching Process Map")
  
