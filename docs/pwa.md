@@ -1,6 +1,9 @@
-+++
+---
+layout: default
+description: Doesn't Have One
 
-+++
+---
+
 # Offline Mode
 
 I am just addong some change. Hope that's fine.
