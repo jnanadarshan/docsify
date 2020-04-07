@@ -9,7 +9,7 @@
  
 - Mis
 
-  - [Hitachi e-Manufacturing](hitachi-emanufacturing.html)
+  - [Hitachi e-Manufacturing](https://jnanadarshan.github.io/docsify/hitachi-emanufacturing.html)
 
 - Guide
 
