@@ -1,5 +1,9 @@
++++
+
++++
 # Offline Mode
 
+I am just addong some change. Hope that's fine.
 [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) (PWA) are experiences that combine the best of the web with the best of apps. We can enhance our website with service workers to work **offline** or on low-quality networks.
 
 It is also very easy to use it.
