@@ -1,12 +1,9 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.11.3</small>
+# adsmad <small>2020.04.01 beta</small>
 
-> A magical documentation site generator.
+> Advanced Semiconductor Manufacturing Documentation Database
 
-- Simple and lightweight (~21kB gzipped)
-- No statically built html files
-- Multiple themes
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[jnana.co](https://jnan.co/)
 [Getting Started](#docsify)
