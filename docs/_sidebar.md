@@ -8,16 +8,10 @@
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
-- Customization
+- Technology
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Test Page](test.md)
   - [Recipie Management System](rms.md)
+  - [AHMS](ahms.md)
 
 - Guide
 
