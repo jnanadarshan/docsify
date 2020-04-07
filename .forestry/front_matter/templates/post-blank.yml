@@ -28,7 +28,7 @@ fields:
   label: Author
   default: Jnanadarshan Nayak
 pages:
-- docs/docs/recipe-management-system-rms.md
+- docs/ahms.md
 - docs/file.md
 - docs/mypage.md
 - docs/test.md
