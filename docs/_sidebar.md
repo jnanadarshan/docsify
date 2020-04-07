@@ -1,3 +1,6 @@
+---
+
+---
 - Getting started
 
   - [Quick start](quickstart.md)
@@ -13,6 +16,7 @@
   - [Write a Plugin](write-a-plugin.md)
   - [Markdown configuration](markdown.md)
   - [Language highlighting](language-highlight.md)
+  - [Test Page](test.md)
 
 - Guide
 
