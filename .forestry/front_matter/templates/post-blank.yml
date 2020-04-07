@@ -1,7 +1,32 @@
 ---
 label: Post Blank
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: default
+- name: description
+  type: textarea
+  default: Blank
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  default: Jnanadarshan Nayak
 pages:
 - docs/file.md
 - docs/mypage.md
