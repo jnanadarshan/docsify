@@ -7,6 +7,8 @@ tags:
 author: Jnanadarshan Nayak
 
 ---
+From - [https://www.mastercontrol.com/manufacturing/recipe-management-system/](https://www.mastercontrol.com/manufacturing/recipe-management-system/ "https://www.mastercontrol.com/manufacturing/recipe-management-system/")
+
 ## What Is a Recipe Management System?
 
 A recipe management system is a software application that manages the complex relationships and processes related to a company’s production recipes. They store the recipes, enable recipe modification, generate data required for production records, and even provide the ability to launch tasks and processes. Recipe management systems are most effective when integrated with a [manufacturing execution system (MES)](https://www.mastercontrol.com/manufacturing/manufacturing-execution-systems-software) or other higher-level control systems. Recipe management can also be a module within an MES.
