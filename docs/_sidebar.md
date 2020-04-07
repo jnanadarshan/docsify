@@ -3,7 +3,7 @@
 ---
 - Process
 
-  - [Etching](etch-def.md)
+  - [Etching](/process/etch-def.md "Etching Definition and Explanation")
 
 - Technology
 
