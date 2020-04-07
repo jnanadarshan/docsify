@@ -17,6 +17,7 @@
   - [Markdown configuration](markdown.md)
   - [Language highlighting](language-highlight.md)
   - [Test Page](test.md)
+  - [My Page](mypage.md)
 
 - Guide
 
