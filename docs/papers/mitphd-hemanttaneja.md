@@ -10,6 +10,6 @@ author: Jnanadarshan Nayak
 This is the PHD Paper of Hemant Taneja - A Tactical Planning Model
 for a Semiconductor Wafer Fabrication Facility
 
-'''pdf
+```pdf
 	https://jnanadarshan.github.io/docsify/papers/43573635-MIT.pdf
-'''
+```
