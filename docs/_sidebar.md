@@ -7,19 +7,13 @@
   - [Recipie Management System](rms.md)
   - [AHMS](ahms.md)
  
-- Mis
+- Miscellaneous
 
   - [Hitachi e-Manufacturing](https://jnanadarshan.github.io/docsify/hitachi-emanufacturing.html)
 
-- Guide
+- Patents Directory
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [Recipie](/patents/recipie.md "Documents Related to Recipie Management system or Database")
 
 - [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)
