@@ -8,6 +8,13 @@ fields:
     required: false
   label: Layout
   default: default
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Page title for Gitbook
+  default: ''
 - name: description
   type: textarea
   default: Blank
@@ -33,4 +40,3 @@ pages:
 - docs/mypage.md
 - docs/papers/mitphd-hemanttaneja.md
 - docs/process/etch-def.md
-- docs/test.md
