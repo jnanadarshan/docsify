@@ -9,7 +9,7 @@ tags:
 author: Jnanadarshan Nayak
 ---
 
-# ahms
+# Automated Material Handling System
 
 **AHMS - Automated Material Handling Systems**
 
