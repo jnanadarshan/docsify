@@ -1,4 +1,10 @@
-# \_sidebar
+---
+layout: default
+title: sidebar
+description: ''
+tags: []
+author: Jnanadarshan Nayak
+---
 
 * Process
   * [Etching](https://github.com/jnanadarshan/docsify/tree/e0e70dea214b0bf6b49a3dca8b0c394b18a3ca00/process/etch-def.md)
