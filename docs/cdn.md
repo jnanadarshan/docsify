@@ -1,10 +1,10 @@
 # CDN
 
-Recommended: [jsDelivr](//cdn.jsdelivr.net), which will reflect the latest version as soon as it is published to npm. You can also browse the source of the npm package at [cdn.jsdelivr.net/npm/docsify/](//cdn.jsdelivr.net/npm/docsify/).
+Recommended: [jsDelivr](https://github.com/jnanadarshan/docsify/tree/e0e70dea214b0bf6b49a3dca8b0c394b18a3ca00/cdn.jsdelivr.net), which will reflect the latest version as soon as it is published to npm. You can also browse the source of the npm package at [cdn.jsdelivr.net/npm/docsify/](https://github.com/jnanadarshan/docsify/tree/e0e70dea214b0bf6b49a3dca8b0c394b18a3ca00/cdn.jsdelivr.net/npm/docsify/README.md).
 
 ## Latest version
 
-```html
+```markup
 <!-- load css -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 
@@ -12,11 +12,11 @@ Recommended: [jsDelivr](//cdn.jsdelivr.net), which will reflect the latest versi
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
 ```
 
-Alternatively, use [compressed files](#compressed-file).
+Alternatively, use [compressed files](cdn.md#compressed-file).
 
 ## Specific version
 
-```html
+```markup
 <!-- load css -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.10.2/themes/vue.css">
 
@@ -26,7 +26,7 @@ Alternatively, use [compressed files](#compressed-file).
 
 ## Compressed file
 
-```html
+```markup
 <!-- load css -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 
@@ -34,7 +34,7 @@ Alternatively, use [compressed files](#compressed-file).
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-```html
+```markup
 <!-- load css -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.10.2/lib/themes/vue.css">
 
@@ -44,7 +44,7 @@ Alternatively, use [compressed files](#compressed-file).
 
 ## Other CDN
 
-- http://www.bootcdn.cn/docsify
-- https://cdn.jsdelivr.net/npm/docsify/
-- https://cdnjs.com/libraries/docsify
+* [http://www.bootcdn.cn/docsify](http://www.bootcdn.cn/docsify)
+* [https://cdn.jsdelivr.net/npm/docsify/](https://cdn.jsdelivr.net/npm/docsify/)
+* [https://cdnjs.com/libraries/docsify](https://cdnjs.com/libraries/docsify)
 

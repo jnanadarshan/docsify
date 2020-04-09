@@ -6,7 +6,7 @@ You can write Vue components directly in the Markdown file, and it will be parse
 
 Load the Vue in `./index.html`.
 
-```html
+```markup
 <script src="//cdn.jsdelivr.net/npm/vue"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify"></script>
 
@@ -17,9 +17,9 @@ Load the Vue in `./index.html`.
 
 Then you can immediately write Vue code at Markdown file. `new Vue({ el: '#main' })` script is executed by default to create instance.
 
-*README.md*
+_README.md_
 
-````markdown
+```text
 # Vue guide
 
 `v-for` usage.
@@ -33,13 +33,13 @@ Then you can immediately write Vue code at Markdown file. `new Vue({ el: '#main'
 <ul>
   <li v-for="i in 10">{{ i }}</li>
 </ul>
-````
+```
 
 You can manually initialize a Vue instance.
 
-*README.md*
+_README.md_
 
-```markdown
+```text
 # Vue demo
 
 <div id="main">hello {{ msg }}</div>
@@ -52,15 +52,15 @@ You can manually initialize a Vue instance.
 </script>
 ```
 
-!> In a Markdown file, only the script within the first script tag is executed.
+!&gt; In a Markdown file, only the script within the first script tag is executed.
 
 ## Combine Vuep to write playground
 
 [Vuep](https://github.com/QingWei-Li/vuep) is a component for rendering Vue components with live editor and preview. Supports Vue component spec and JSX.
 
-*index.html*
+_index.html_
 
-```html
+```markup
 <!-- Inject CSS file -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/vuep/dist/vuep.css">
 
@@ -75,8 +75,9 @@ You can manually initialize a Vue instance.
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-*README.md*
-```markdown
+_README.md_
+
+```text
 # Vuep
 
 <vuep template="#example"></vuep>
@@ -96,4 +97,5 @@ You can manually initialize a Vue instance.
 </script>
 ```
 
-?> Example Refer to the [Vuep documentation](https://qingwei-li.github.io/vuep/).
+?&gt; Example Refer to the [Vuep documentation](https://qingwei-li.github.io/vuep/).
+

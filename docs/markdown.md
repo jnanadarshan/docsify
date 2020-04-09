@@ -2,7 +2,7 @@
 
 **docsify** uses [marked](https://github.com/markedjs/marked) as its Markdown parser. You can customize how it renders your Markdown content to HTML by customizing `renderer`:
 
-```js
+```javascript
 window.$docsify = {
   markdown: {
     smartypants: true,
@@ -15,11 +15,11 @@ window.$docsify = {
 }
 ```
 
-?> Configuration Options Reference [marked documentation](https://marked.js.org/#/USING_ADVANCED.md)
+?&gt; Configuration Options Reference [marked documentation](https://marked.js.org/#/USING_ADVANCED.md)
 
 Even you can completely customize the parsing rules.
 
-```js
+```javascript
 window.$docsify = {
   markdown: function(marked, renderer) {
     // ...
@@ -31,7 +31,7 @@ window.$docsify = {
 
 ## Supports mermaid
 
-```js
+```javascript
 // Import mermaid
 //  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
 //  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
@@ -54,3 +54,4 @@ window.$docsify = {
   }
 }
 ```
+

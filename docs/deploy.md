@@ -6,24 +6,23 @@ Similar to [GitBook](https://www.gitbook.com), you can deploy files to GitHub Pa
 
 There're three places to populate your docs for your Github repository:
 
-- `docs/` folder
-- master branch
-- gh-pages branch
+* `docs/` folder
+* master branch
+* gh-pages branch
 
 It is recommended that you save your files to the `./docs` subfolder of the `master` branch of your repository. Then select `master branch /docs folder` as your Github Pages source in your repositories' settings page.
 
-![github pages](_images/deploy-github-pages.png)
+![github pages](.gitbook/assets/deploy-github-pages.png)
 
-!> You can also save files in the root directory and select `master branch`.
-You'll need to place a `.nojekyll` file in the deploy location (such as `/docs` or the gh-pages branch)
+!&gt; You can also save files in the root directory and select `master branch`. You'll need to place a `.nojekyll` file in the deploy location \(such as `/docs` or the gh-pages branch\)
 
 ## GitLab Pages
 
 If you are deploying your master branch, include `.gitlab-ci.yml` with the following script:
 
-?> The `.public` workaround is so `cp` doesn't also copy `public/` to itself in an infinite loop.
+?&gt; The `.public` workaround is so `cp` doesn't also copy `public/` to itself in an infinite loop.
 
-```YAML
+```yaml
 pages:
   stage: deploy
   script:
@@ -37,17 +36,17 @@ pages:
   - master
 ```
 
-!> You can replace script with `- cp -r docs/. public`, if `./docs` is your Docsify subfolder.
+!&gt; You can replace script with `- cp -r docs/. public`, if `./docs` is your Docsify subfolder.
 
 ## Firebase Hosting
 
-!> You'll need to install the Firebase CLI using `npm i -g firebase-tools` after signing into the [Firebase Console](https://console.firebase.google.com) using a Google Account.
+!&gt; You'll need to install the Firebase CLI using `npm i -g firebase-tools` after signing into the [Firebase Console](https://console.firebase.google.com) using a Google Account.
 
-Using Terminal determine and navigate to the directory for your Firebase Project - this could be `~/Projects/Docs` etc. From there, run `firebase init`, choosing `Hosting` from the menu (use **space** to select, **arrow keys** to change options and **enter** to confirm). Follow the setup instructions.
+Using Terminal determine and navigate to the directory for your Firebase Project - this could be `~/Projects/Docs` etc. From there, run `firebase init`, choosing `Hosting` from the menu \(use **space** to select, **arrow keys** to change options and **enter** to confirm\). Follow the setup instructions.
 
-You should have your `firebase.json` file looking similar to this (I changed the deployment directory from `public` to `site`):
+You should have your `firebase.json` file looking similar to this \(I changed the deployment directory from `public` to `site`\):
 
-```json
+```javascript
 {
   "hosting": {
     "public": "site",
@@ -56,13 +55,13 @@ You should have your `firebase.json` file looking similar to this (I changed the
 }
 ```
 
-Once finished, build the starting template by running `docsify init ./site` (replacing site with the deployment directory you determined when running `firebase init` - public by default). Add/edit the documentation, then run `firebase deploy` from the base project directory.
+Once finished, build the starting template by running `docsify init ./site` \(replacing site with the deployment directory you determined when running `firebase init` - public by default\). Add/edit the documentation, then run `firebase deploy` from the base project directory.
 
 ## VPS
 
 Try following nginx config.
 
-```nginx
+```text
 server {
   listen 80;
   server_name  your.domain.com;
@@ -76,15 +75,15 @@ server {
 
 ## Netlify
 
-1.  Login to your [Netlify](https://www.netlify.com/) account.
-2.  In the [dashboard](https://app.netlify.com/) page, click **New site from Git**.
-3.  Choose a repository where you store your docs, leave the **Build Command** area blank, fill in the Publish directory area with the directory of your `index.html`, for example it should be docs if you populated it at `docs/index.html`.
+1. Login to your [Netlify](https://www.netlify.com/) account.
+2. In the [dashboard](https://app.netlify.com/) page, click **New site from Git**.
+3. Choose a repository where you store your docs, leave the **Build Command** area blank, fill in the Publish directory area with the directory of your `index.html`, for example it should be docs if you populated it at `docs/index.html`.
 
 ### HTML5 router
 
 When using the HTML5 router, you need to set up redirect rules that redirect all requests to your `index.html`, it's pretty simple when you're using Netlify, create a file named `_redirects` in the docs directory, add this snippet to the file and you're all set:
 
-```sh
+```bash
 /*    /index.html   200
 ```
 
@@ -96,9 +95,9 @@ When using the HTML5 router, you need to set up redirect rules that redirect all
 
 ## AWS Amplify
 
-1. Set the routerMode in the Docsify project `index.html` to *history* mode.
+1. Set the routerMode in the Docsify project `index.html` to _history_ mode.
 
-```html
+```markup
 <script>
     window.$docsify = {
       loadSidebar: true,
@@ -107,12 +106,12 @@ When using the HTML5 router, you need to set up redirect rules that redirect all
 </script>
 ```
 
-2. Login to your [AWS Console](https://aws.amazon.com).
-3. Go to the [AWS Amplify Dashboard](https://aws.amazon.com/amplify).
-4. Choose the **Deploy** route to setup your project.
-5. When prompted, keep the build settings empty if you're serving your docs within the root directory. If you're serving your docs from a different directory, customise your amplify.yml
+1. Login to your [AWS Console](https://aws.amazon.com).
+2. Go to the [AWS Amplify Dashboard](https://aws.amazon.com/amplify).
+3. Choose the **Deploy** route to setup your project.
+4. When prompted, keep the build settings empty if you're serving your docs within the root directory. If you're serving your docs from a different directory, customise your amplify.yml
 
-```yml
+```text
 version: 0.1
 frontend:
   phases:
@@ -125,13 +124,13 @@ frontend:
       - '**/*'
   cache:
     paths: []
-
 ```
 
-6. Add the following Redirect rules in their displayed order. Note that the second record is a PNG image where you can change it with any image format you are using. 
+1. Add the following Redirect rules in their displayed order. Note that the second record is a PNG image where you can change it with any image format you are using. 
 
-| Source address | Target address | Type          |
-|----------------|----------------|---------------|
-| /<*>.md        | /<*>.md        | 200 (Rewrite) |
-| /<*>.png       | /<*>.png       | 200 (Rewrite) |
-| /<*>           | /index.html    | 200 (Rewrite) |        
+| Source address | Target address | Type |
+| :--- | :--- | :--- |
+| /&lt;\*&gt;.md | /&lt;\*&gt;.md | 200 \(Rewrite\) |
+| /&lt;\*&gt;.png | /&lt;\*&gt;.png | 200 \(Rewrite\) |
+| /&lt;\*&gt; | /index.html | 200 \(Rewrite\) |
+

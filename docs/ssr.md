@@ -1,12 +1,13 @@
 # Server-Side Rendering
 
-See https://docsify.now.sh
+See [https://docsify.now.sh](https://docsify.now.sh)
 
-Repo in https://github.com/docsifyjs/docsify-ssr-demo
+Repo in [https://github.com/docsifyjs/docsify-ssr-demo](https://github.com/docsifyjs/docsify-ssr-demo)
 
 ## Why SSR?
-- Better SEO
-- Feeling cool
+
+* Better SEO
+* Feeling cool
 
 ## Quick start
 
@@ -18,7 +19,7 @@ npm i now docsify-cli -D
 
 Edit `package.json`. If the documentation in `./docs` subdirectory.
 
-```json
+```javascript
 {
   "name": "my-project",
   "scripts": {
@@ -40,7 +41,7 @@ Edit `package.json`. If the documentation in `./docs` subdirectory.
 }
 ```
 
-!> The `basePath` just like webpack `publicPath`. We can use local or remote files.
+!&gt; The `basePath` just like webpack `publicPath`. We can use local or remote files.
 
 We can preview in the local to see if it works.
 
@@ -62,7 +63,7 @@ Now, You have a support for SSR the docs site.
 
 You can provide a template for entire page's HTML. such as
 
-```html
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,14 +85,15 @@ You can provide a template for entire page's HTML. such as
 ```
 
 The template should contain these comments for rendered app content.
- - `<!--inject-app-->`
- - `<!--inject-config-->`
+
+* `<!--inject-app-->`
+* `<!--inject-config-->`
 
 ## Configuration
 
 You can configure it in a special config file, or `package.json`.
 
-```js
+```javascript
 module.exports = {
   template: './ssr.html',
   maxAge: 60 * 60 * 1000, // lru-cache config
@@ -105,7 +107,7 @@ module.exports = {
 
 You can run `docsify start` directly on your Node server, or write your own server app with `docsify-server-renderer`.
 
-```js
+```javascript
 var Renderer = require('docsify-server-renderer')
 var readFileSync = require('fs').readFileSync
 
@@ -122,3 +124,4 @@ renderer.renderToString(url)
   .then(html => {})
   .catch(err => {})
 ```
+

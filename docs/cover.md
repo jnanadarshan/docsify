@@ -6,7 +6,7 @@ Activate the cover feature by setting `coverpage` to **true**, compare [coverpag
 
 Set `coverpage` to **true**, and create a `_coverpage.md`:
 
-```html
+```markup
 <!-- index.html -->
 
 <script>
@@ -17,7 +17,7 @@ Set `coverpage` to **true**, and create a `_coverpage.md`:
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-```markdown
+```text
 <!-- _coverpage.md -->
 
 ![logo](_media/icon.svg)
@@ -34,13 +34,13 @@ Set `coverpage` to **true**, and create a `_coverpage.md`:
 [Get Started](#docsify)
 ```
 
-!> A document site can have only one coverpage!
+!&gt; A document site can have only one coverpage!
 
 ## Custom background
 
 The background color is generated randomly by default. You can customize the background color or a background image:
 
-```markdown
+```text
 <!-- _coverpage.md -->
 
 # docsify <small>3.5</small>
@@ -81,7 +81,7 @@ For example, your docs structure is like this
 
 Now, you can set
 
-```js
+```javascript
 window.$docsify = {
   coverpage: ['/', '/zh-cn/']
 };
@@ -89,7 +89,7 @@ window.$docsify = {
 
 Or a special file name
 
-```js
+```javascript
 window.$docsify = {
   coverpage: {
     '/': 'cover.md',
@@ -97,3 +97,4 @@ window.$docsify = {
   }
 };
 ```
+

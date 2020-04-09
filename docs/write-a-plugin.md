@@ -4,7 +4,7 @@ A plugin is simply a function that takes `hook` as an argument. The hook support
 
 ## Full configuration
 
-```js
+```javascript
 window.$docsify = {
   plugins: [
     function(hook, vm) {
@@ -43,7 +43,7 @@ window.$docsify = {
 };
 ```
 
-!> You can get internal methods through `window.Docsify`. Get the current instance through the second argument.
+!&gt; You can get internal methods through `window.Docsify`. Get the current instance through the second argument.
 
 ## Example
 
@@ -51,7 +51,7 @@ window.$docsify = {
 
 Add footer component in each pages.
 
-```js
+```javascript
 window.$docsify = {
   plugins: [
     function(hook) {
@@ -73,7 +73,7 @@ window.$docsify = {
 
 ### Edit Button
 
-```js
+```javascript
 window.$docsify = {
   plugins: [
     function(hook, vm) {
@@ -100,12 +100,13 @@ window.$docsify = {
 
 ### Get docsify version
 
-```
+```text
 console.log(window.Docsify.version)
 ```
 
-Current version: <span id='tip-version'>loading</span>
+Current version: loading
 
-<script>
-document.getElementById('tip-version').innerText = Docsify.version
-</script>
+  
+document.getElementById\('tip-version'\).innerText = Docsify.version  
+
+
