@@ -1,13 +1,11 @@
 ---
 layout: default
-description: Blank
+description: 'From - http://www.appliedmaterials.com/semiconductor/products/etch/info'
 tags: []
 author: Jnanadarshan Nayak
 ---
 
 # ETCH - Applied Materials
-
-From - [http://www.appliedmaterials.com/semiconductor/products/etch/info](http://www.appliedmaterials.com/semiconductor/products/etch/info)
 
 The [etch](http://www.appliedmaterials.com/glossary#etch) process removes selected areas from the surface of the wafer so that other materials may be deposited.
 
@@ -20,8 +18,6 @@ Plasma etching is performed by applying electromagnetic energy \[typically radio
 ![](http://www.appliedmaterials.com/files/etching_process_v6.gif)
 
 Process chemistries differ depending on the types of films to be etched. Those used in dielectric etch applications are typically fluorine-based. Silicon and metal etch use chlorine-based chemistries. A specific etch step may be performed on one or more film layers. When multiple layers are involved and also when the etch process must stop precisely on a particular layer without damaging it, the selectivity of the process becomes important. Selectivity is the ratio of two etch rates: the rate for the layer to be removed and the rate for the layer to be protected \(e.g. mask or stop layer\). Higher selectivities are usually desirable.
-
-![](http://www.appliedmaterials.com/files/etching_process_v6.gif)
 
 In reactive ion etching \(RIE\), described above, the objective is to optimize the balance between physical and chemical etching such that physical bombardment \(etch rate\) is sufficient to remove the requisite material while appropriate chemical reactions occur to form either easily exhausted volatile byproducts or protective deposits on the remainder \(selectivity and profile control\). Magnetically enhanced RIE can aid processing by increasing ion density without increasing ion energy \(which can damage the wafer\).
 
